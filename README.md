@@ -1,9 +1,9 @@
 # Multidimensional Integration routines and Fixed point finder.
 
-This file contains to simple extensions of numerical integrations written in C.
+This file contains two simple extensions of numerical integrations written in C.
 The first is a n-dimensional quadrature integration, which extends the GSL integration
 routine "gsl_integration_qags".
-The following is a simple monte carlos integration. The two have matching signatures to
+The following is a simple Monte Carlo integration. The two have matching signatures to
 allow for dynamically exchanging the two according the number of dimensions being used
 and the precision required.
 
